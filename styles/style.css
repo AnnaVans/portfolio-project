@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(/imgs/backround1.jpg);
@@ -24,4 +28,18 @@ h2 {
 .profile-picture {
   border-radius: 50%;
   margin-right: 25px;
+}
+
+.contact-button {
+  border: 1px solid #00a881;
+  color: #00a881;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.contact-button:hover {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
 }
