@@ -5,7 +5,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: left;
   margin-left: 50px;
 }
 
@@ -48,7 +47,7 @@ h3 {
   margin: 10px 20px;
 }
 
-.contact-picture {
+.aboutme-picture {
   border: 2px solid #4ddbba;
   border-radius: 4px;
 }
@@ -82,4 +81,9 @@ h3 {
 
 .technologies {
   color: #4ddbba;
+}
+
+.contact-page-info {
+  margin-top: 50px;
+  text-align: center;
 }
