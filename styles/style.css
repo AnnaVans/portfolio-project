@@ -94,3 +94,9 @@ h3 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.certificate-img {
+  border: 3px solid #4ddbba;
+  border-radius: 4px;
+  margin-top: 50px;
+}
