@@ -44,6 +44,7 @@ h3 {
 
 .profile-picture {
   border-radius: 4px;
+  border: 0.5px solid #4ddbba;
   margin: 10px 20px;
 }
 
@@ -77,10 +78,6 @@ h3 {
   line-height: 2;
   text-align: justify;
   margin: 15px auto;
-}
-
-.technologies {
-  color: #4ddbba;
 }
 
 .contact-page-info {
