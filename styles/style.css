@@ -33,6 +33,28 @@ h4 {
   font-family: "Questrial", sans-serif;
 }
 
+@media (max-width: 575px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 42px;
+    line-height: 1;
+  }
+
+  .aboutme-picture {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .project-text {
+    text-align: center;
+  }
+}
+
 .highlight {
   color: var(--primary-color);
 }
@@ -63,9 +85,25 @@ h4 {
   border-radius: 4px;
 }
 
+.certificate-img {
+  border: 3px solid var(--primary-color);
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
 .homepage-section {
   margin-top: 150px;
   text-align: center;
+}
+
+.about-section,
+.project-section {
+  margin-top: 120px;
+}
+
+.section-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .highlighted-link {
@@ -80,16 +118,6 @@ h4 {
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
-}
-
-.about-section,
-.project-section {
-  margin-top: 120px;
-}
-
-.section-2 {
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 .about-me-text {
@@ -115,38 +143,10 @@ h4 {
   margin-bottom: 50px;
 }
 
-.certificate-img {
-  border: 3px solid var(--primary-color);
-  border-radius: 4px;
-  margin-top: 50px;
-}
-
 .project-text {
   font-family: "Questrial", sans-serif;
   font-size: 18px;
   color: var(--third-color);
   line-height: 2;
   text-align: left;
-}
-
-@media (max-width: 575px) {
-  h1 {
-    font-size: 50px;
-    line-height: 1.5;
-  }
-
-  h3 {
-    font-size: 42px;
-    line-height: 1;
-  }
-
-  .aboutme-picture {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-  }
-
-  .project-text {
-    text-align: center;
-  }
 }
