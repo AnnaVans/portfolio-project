@@ -2,12 +2,6 @@ body {
   background-color: #0a192f;
 }
 
-h1,
-h2,
-h3 {
-  margin-left: 50px;
-}
-
 h1 {
   font-size: 80px;
   color: #ccd6f6;
@@ -61,6 +55,11 @@ h4 {
 .project-img {
   border: 2px solid #4ddbba;
   border-radius: 4px;
+}
+
+.homepage-section {
+  margin-top: 150px;
+  text-align: center;
 }
 
 .highlighted-link {
